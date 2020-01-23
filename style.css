@@ -1,0 +1,97 @@
+.BR {
+    /*border: 1px solid black;*/
+}
+
+body {
+    font: 13px/18px YS Text, Helvetica, Arial, Verdana, sans-serif;
+    background: #f3f1ed;
+}
+
+.Root_mainContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.Root_main {
+    position: relative;
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+}
+
+.SearchLayout {
+    display: flex;
+    width: 1340px;
+    min-height: 350px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.SearchPage_content {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px 20px 0;
+}
+
+.SearchTitle {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/*.SearchPageSidebar {*/
+/*    flex: 0 0 auto;*/
+/*    padding: 20px 0 20px 20px;*/
+/*    width: 300px;*/
+/*    position: relative;*/
+/*}*/
+
+.SearchForm {
+    float: left;
+    max-width: 750px;
+}
+
+.SearchLayout_content{
+    background: #fff;
+}
+
+.Header_Header {
+    box-sizing: content-box;
+    display: block;
+    height: 73px;
+    float: none;
+}
+
+.Header_bar {
+    position: fixed;
+    z-index: 5000;
+    left: 0;
+    right: 0;
+    height: 73px;
+    background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.Header_container {
+    width: 100%;
+    min-width: 980px;
+    max-width: 1380px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    position: relative;
+    padding: 20px;
+}
+
+.Header_logo {
+    float: left;
+    margin-top: 6px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.Header_personal {
+    float: right;
+}
